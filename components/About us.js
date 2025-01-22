@@ -58,10 +58,10 @@ clients and the industry.             </p>
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-white">Locate Us</h2>
             <p className="text-gray-300">11, 4th Cross, 2nd Main Rd, RPC Layout, Bengaluru, Karnataka 560104</p>
-            <p className="text-gray-300">8465842601</p>
+            <p className="text-gray-300">+91 7893456992</p>
             <p className="text-gray-300">
-              <a href="mailto:contact@hashinclude.in" className="hover:underline hover:text-yellow-400 transition-all">
-                contact@runners.in
+              <a href="mailto:Bhuvanachand@runnerssoftware.com" className="hover:underline hover:text-yellow-400 transition-all">
+              Bhuvanachand@runnerssoftware.com
               </a>
             </p>
           </div>
