@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Link from 'next/link';
 
 export default function AboutUs() {
   return (
@@ -41,15 +42,15 @@ clients and the industry.             </p>
       </li>
     ))}
     <li>
-      <a href="/careers" className="hover:underline hover:text-yellow-400 transition-all">
-        Careers
-      </a>
-    </li>
-    <li>
-      <a href="/contact-us" className="hover:underline hover:text-yellow-400 transition-all">
-        Contact Us
-      </a>
-    </li>
+  <Link href="/careers" className="hover:underline hover:text-yellow-400 transition-all">
+    Careers
+  </Link>
+</li>
+<li>
+  <Link href="/contact-us" className="hover:underline hover:text-yellow-400 transition-all">
+    Contact Us
+  </Link>
+</li>
   </ul>
 </div>
 

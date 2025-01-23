@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCogs, faUsers, faIndustry } from '@fortawesome/free-solid-svg-icons';
 export default function Projects() {
   return (
     <div
