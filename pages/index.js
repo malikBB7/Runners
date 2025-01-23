@@ -4,7 +4,7 @@ import VerticalNav from '../components/VerticalNav';
 import Services from '../components/Services';
 import Stories from '../components/Stories';
 import Heritage from '../components/Heritage';
-import Projects from '../components/Projects';
+import Projects from '../components/projects';
 import AboutUs from '../components/About us';  // Fix the import name
 
 export default function HomePage() {

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Empowering() {
     return (
       <div className="min-h-screen bg-gray-100">
@@ -44,12 +45,12 @@ export default function Empowering() {
             </p>
   
             <div className="mt-6">
-              <a
+              <Link
                 href="/"
                 className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
               >
                 Explore Our Solutions
-              </a>
+              </Link>
             </div>
         </div>
   

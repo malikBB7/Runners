@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import AboutUs from '../components/About us';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function CareersPage() {
   return (
@@ -38,7 +39,7 @@ export default function CareersPage() {
 
           {/* Apply Now Button */}
           <div className="flex justify-center mt-8">
-            <a
+            <Link
               href="https://docs.google.com/forms/d/e/1FAIpQLSe9RZo8kcIUQsjBF2SDaqZOCP4YOZNqqgsh3DxwDx68ej8Hxg/viewform"
               target="_blank"
               rel="noopener noreferrer"
@@ -46,7 +47,7 @@ export default function CareersPage() {
               <button className="bg-blue-500 text-white py-3 px-6 rounded-full text-lg hover:bg-blue-600 transition-all">
                 Apply Now
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

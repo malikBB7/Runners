@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import { FaClock, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import Link from 'next/link';
 
 export default function ContactUsPage() {
   const [formData, setFormData] = useState({
@@ -86,20 +87,20 @@ export default function ContactUsPage() {
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center space-y-4">
-      <a href="mailto:Bhuvanachand@runnerssoftware.com" className="flex flex-col items-center space-y-4">
+      <Link href="mailto:Bhuvanachand@runnerssoftware.com" className="flex flex-col items-center space-y-4">
         <FaEnvelope className="text-red-500 text-4xl" />
         <h3 className="text-lg font-semibold">Email</h3>
         <p className="text-center">Bhuvanachand@runnerssoftware.com</p>
-      </a>
+      </Link>
     </div>
 
 
           <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center space-y-4">
-  <a href="https://www.google.com/maps/place/12%C2%B058'01.6%22N+77%C2%B032'18.7%22E/@12.9671202,77.5359481,17z/data=!3m1!4b1!4m4!3m3!8m2!3d12.9671202!4d77.538523?entry=ttu&g_ep=EgoyMDI1MDEyMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center space-y-4">
+  <Link href="https://www.google.com/maps/place/12%C2%B058'01.6%22N+77%C2%B032'18.7%22E/@12.9671202,77.5359481,17z/data=!3m1!4b1!4m4!3m3!8m2!3d12.9671202!4d77.538523?entry=ttu&g_ep=EgoyMDI1MDEyMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center space-y-4">
     <FaMapMarkerAlt className="text-purple-500 text-4xl" />
     <h3 className="text-lg font-semibold">Location</h3>
     <p className="text-center">Our Office Location</p>
-  </a>
+  </Link>
 </div>
         </div>
 
